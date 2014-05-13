@@ -1,0 +1,2 @@
+ebin/Elixir.Greeting.beam	Elixir.Greeting	lib/greeting.ex
+ebin/Elixir.HelloWorld.beam	Elixir.HelloWorld	lib/hello_world.ex
