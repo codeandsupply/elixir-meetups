@@ -39,4 +39,9 @@ create_admin(name: “Justin”…) => %User{name: “Justin”, role: :admin}.
 # To Look into
 ````
 doctests
+http://blog.pluralsight.com/elixir-is-for-programmers
+http://conscientiousprogrammer.com/blog/2013/08/26/openhack-pittsburgh-learning-elixir-test-driven-and-package-publishing/
+http://elixir-lang.org/getting_started/ex_unit/1.html
+http://elixir-lang.org/docs/master/ExUnit.DocTest.html
+https://github.com/chrismccord/elixir_express
 ````
