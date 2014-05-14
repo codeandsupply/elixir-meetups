@@ -30,7 +30,7 @@ Elixir's big conference is named Elixir Factory. SEO fail :(
 create_admin(name: “Justin”…) => %User{name: “Justin”, role: :admin}.
 ````
 
-(tweet)[https://twitter.com/chris_mccord/status/466371187585863681]
+[Tweet](https://twitter.com/chris_mccord/status/466371187585863681)
 
 ## Frameworks
 
