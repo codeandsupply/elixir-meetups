@@ -13,6 +13,7 @@ What do I expect to find in Ruby?
 - Acceptance/integration testing
 - Easy fixtures or factories
 - Mocking and stubbing
+- QuickCheck
 
 What from that list do I get in Elixir?
 
@@ -20,6 +21,7 @@ What from that list do I get in Elixir?
 - Acceptance/integration testing ✔︎ [Hound](https://github.com/HashNuke/hound)
 - Easy fixtures or factories 𝘟 couldn't find anything
 - Mocking and stubbing ✔︎ https://github.com/jjh42/mock
+- QuickCheck ✔︎ https://github.com/manopapad/proper
 
 ## Easy Fixtures or Factories
 
