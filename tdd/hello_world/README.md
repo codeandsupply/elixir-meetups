@@ -44,6 +44,22 @@ defmodule GreetingTest do
 end
 ````
 
+## Unit testing with assertions ✔︎
+
+[ExUnit](http://elixir-lang.org/getting_started/ex_unit/1.html)
+
+Built right in with Elixir, only need to do `use ExUnit.Case` in a module. Then
+have assertions and named tests ready to use.
+
+````
+  test "Saying hello" do
+    assert Greeting.hello("Ben") == "Hello, Ben!"
+  end
+````
+
+Out of the box, ExUnit comes with asynchronous tests. Only need to add an
+argument. `use ExUnit.Case, async: true`
+
 ## Easy Fixtures or Factories
 
 Elixir's big conference is named Elixir Factory. SEO fail :(
