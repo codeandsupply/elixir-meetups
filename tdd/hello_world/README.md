@@ -60,6 +60,38 @@ have assertions and named tests ready to use.
 Out of the box, ExUnit comes with asynchronous tests. Only need to add an
 argument. `use ExUnit.Case, async: true`
 
+## Acceptance/integration testing ✔︎
+
+[Hound](https://github.com/HashNuke/hound)
+
+Install it by adding to deps
+
+````
+  { :hound, github: "HashNuke/hound", tag: "v0.5.1" }
+````
+
+Run `mix deps.get`
+
+Start it in `test_helper.exs`
+
+````
+# Hound.start [driver: "chrome_driver"]
+````
+
+Use it
+
+````
+  test "the truth", meta do
+    navigate_to("http://example.com/guestbook.html")
+
+    find_element(:name, "message")
+    |> fill_field("Happy Birthday ~!")
+    |> submit_element()
+
+    assert page_title() == "Thank you"
+  end
+````
+
 ## Easy Fixtures or Factories
 
 Elixir's big conference is named Elixir Factory. SEO fail :(

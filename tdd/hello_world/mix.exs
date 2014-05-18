@@ -18,6 +18,7 @@ defmodule HelloWorld.Mixfile do
   defp deps do
     [
       #{ :mock, "> 0.13", git: "https://github.com/jjh42/mock.git" }
+      { :hound, github: "HashNuke/hound", tag: "v0.5.1" }
     ]
   end
 end
