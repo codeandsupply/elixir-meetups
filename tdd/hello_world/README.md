@@ -23,6 +23,27 @@ What from that list do I get in Elixir?
 - Mocking and stubbing ✔︎ https://github.com/jjh42/mock
 - QuickCheck ✔︎ https://github.com/manopapad/proper
 
+## Installing Testing Dependencies
+
+In mix.exs, there is a place for dependencies.
+
+````
+defp deps do
+  # [ {:mock, '> 0.13', git: 'https://github.com/jjh42/mock.git'} ]
+end
+````
+
+Once your dependency is added, run `mix deps.get`
+
+Then you should be able to `import Mock` in your text files where necessary.
+
+````
+defmodule GreetingTest do
+  use ExUnit.Case, async: true
+  import Mock
+end
+````
+
 ## Easy Fixtures or Factories
 
 Elixir's big conference is named Elixir Factory. SEO fail :(

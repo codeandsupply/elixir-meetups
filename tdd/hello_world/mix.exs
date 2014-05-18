@@ -16,6 +16,8 @@ defmodule HelloWorld.Mixfile do
   # Returns the list of dependencies in the format:
   # { :foobar, "~> 0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
-    []
+    [
+      #{ :mock, "> 0.13", git: "https://github.com/jjh42/mock.git" }
+    ]
   end
 end
