@@ -11,15 +11,15 @@ defmodule GreetingTest do
   #  assert Greeting.hi("Ben") == "Hello, Ben!"
   #end
 
-  use Hound.Helpers
-  hound_session
-  test "the truth", meta do
-    navigate_to("http://example.com/guestbook.html")
-
-    find_element(:name, "message")
-    |> fill_field("Happy Birthday ~!")
-    |> submit_element()
-
-    assert page_title() == "Thank you"
-  end
+#  use Hound.Helpers
+#  hound_session
+#  test "the truth", meta do
+#    navigate_to("http://example.com/guestbook.html")
+#
+#    find_element(:name, "message")
+#    |> fill_field("Happy Birthday ~!")
+#    |> submit_element()
+#
+#    assert page_title() == "Thank you"
+#  end
 end
