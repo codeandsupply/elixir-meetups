@@ -1,0 +1,7 @@
+%{"ex_doc": {:git, "git://github.com/elixir-lang/ex_doc.git", "1fe2c5daee98de9b94a78eb5d71cb8dd8b469f85", []},
+  "hound": {:git, "git://github.com/HashNuke/hound.git", "52261f96013128b314cc5f6c99ddd2031602595e", []},
+  "ibrowse": {:git, "git://github.com/cmullaparthi/ibrowse.git", "e8ae353c16d4f0897abb9f80025b52925b974dd1", [tag: "v4.0.2"]},
+  "jsex": {:git, "git://github.com/talentdeficit/jsex.git", "03ad4ff0967331afd01464857d41e5e497ed198c", []},
+  "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "507fa4c41db33c81e925ab53f4d789d234aaff2f", [tag: "v2.0.1"]},
+  "meck": {:git, "git://github.com/eproxus/meck.git", "2447206f201bab1054c49cd32621eee23fa0ee3b", [tag: "0.7.2"]},
+  "mock": {:git, "https://github.com/jjh42/mock.git", "0f9b4d16884ddc112ddc694622f95b61973fddd8", []}}

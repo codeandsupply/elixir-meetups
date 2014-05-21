@@ -1,5 +1,6 @@
 defmodule GreetingTest do
-  use ExUnit.Case, async: true
+  use ExUnit.Case
+  use Hound.Helpers
 
   test "Saying hello" do
     assert Greeting.hello("Ben") == "Hello, Ben!"
@@ -11,15 +12,9 @@ defmodule GreetingTest do
   #  assert Greeting.hi("Ben") == "Hello, Ben!"
   #end
 
-  use Hound.Helpers
-  hound_session
-  test "the truth", meta do
-    navigate_to("http://example.com/guestbook.html")
+  test "codeandsupply site is weak", meta do
+    navigate_to("http://codeandsupply.co")
 
-    find_element(:name, "message")
-    |> fill_field("Happy Birthday ~!")
-    |> submit_element()
-
-    assert page_title() == "Thank you"
+    assert page_title() == "Code & Supply"
   end
 end
