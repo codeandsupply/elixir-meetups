@@ -116,3 +116,10 @@ http://elixir-lang.org/getting_started/ex_unit/1.html
 http://elixir-lang.org/docs/master/ExUnit.DocTest.html
 https://github.com/chrismccord/elixir_express
 ````
+
+# Caveats
+
+Only could get Hound to work with
+
+- `Elixir 0.13.1`
+- `Hound master`
